@@ -44,8 +44,8 @@ setInterval(displayTime, 10);
 
 var now = new Date();
 var bgimg = document.getElementById('bgimg');
-let isMorning = now.getHours() > 5 && now.getHours() <= 12;
-let isAfternoon = now.getHours() > 12 && now.getHours() <= 17;
+let isMorning = now.getHours() > 5 && now.getHours() <= 11;
+let isAfternoon = now.getHours() > 11 && now.getHours() <= 17;
 let isEvening = now.getHours() > 17 && now.getHours() <= 22;
 let isNight = now.getHours() > 22 || now.getHours() <= 5;
 let profile = document.getElementById('profile');
