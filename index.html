@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Clock</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/images/logo.png">
+    <link rel="icon" href="images/logo.png">
     <script src="script.js" defer></script>
 </head>
+
 <body>
     <div class="container">
-        <img src="main.jpg" alt="" id="bgimg">
+        <img src="main.jpg" alt="" id="bgimg" class="">
         <div class="time">
             <span id="hours">00</span>
             <span>:</span>
@@ -19,24 +21,34 @@
             <span>:</span>
             <span id="seconds">00</span>
             <span id="session">AM</span>
-          
+
         </div>
         <div class="alter">
-          <div class="txt" id="chatbox">
-            <p class="status" id="status">
-        
-            </p>
-            <br>
-            <p class="chat" id="chat">
+            <div class="txt" id="chatbox">
+                <p class="status" id="status">
 
-            </p>
-          </div>
-       
-        <div class="profile" id="profile">
-            <img src="images/logo.png" alt="">
-            <div class="notify" id="notify">2</div>
+                </p>
+                <br>
+                <p class="chat" id="chat">
+
+                </p>
+            </div>
+
+            <div class="profile" id="profile">
+                <img src="images/logo.png" alt="">
+                <div class="notify" id="notify">2</div>
+            </div>
+        </div>
+
+        <div class="btn">
+            <label for="switch">Slide Background: </label>
+            <label class="switch switch-green">
+                <input type="checkbox" class="switch-input" id="switch">
+                <span class="switch-label" data-on="On" data-off="Off"></span>
+                <span class="switch-handle"></span>
+              </label>
         </div>
     </div>
-    </div>
 </body>
+
 </html>
